@@ -1,4 +1,4 @@
-# cryptography-for-beginners
+# cryptography-for-beginners (Math behind key exchange)
 *Make sure that you installed cryptography package*
 *Install cryptography package using "pip install cryptography" in command prompt*
 
