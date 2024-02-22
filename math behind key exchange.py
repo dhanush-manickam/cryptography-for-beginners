@@ -35,10 +35,10 @@ private_key1 = pow(sendkey1, b) % n
 # private key 2
 private_key2 = pow(sendkey2,a) % n
 
-print(f'As you can see private key 1 = {private_key1} and \nprivate key 2 = {private_key2} are the same')
+print(f'As you can see calculated private key 1 = {private_key1} and \n calculated private key 2 = {private_key2} are the same')
 
 # message that you want to encrypt
-message = str(input("what message do you want to encrypt"))
+message = str(input("what message do you want to encrypt: "))
 
 # No matter what key you put in (private key 1 or private key 2) both are same
 key = private_key1 
@@ -68,5 +68,5 @@ def decrypt():
     elif permission == "n":
         print("No problem")
     else:
-        print("type y for yes or n for no")
-        decrypt()
+        print("enter a valid value")
+decrypt()
