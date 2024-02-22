@@ -30,9 +30,9 @@ g^a mathematical operation may vary but the concept is the same.
       ((g^a)(mod n))^b = (g^ab)(mod n)
     When Alice get the key G(b):
       (g^b)(mod n))^a = (g^ab)(mod n)
- # From the above calculation it is clear that Alice and Bob got the same key without leaking any valuable information.
+ From the above calculation it is clear that Alice and Bob got the same key without leaking any valuable information.
 
- #Bonus 
+ # Bonus 
  Example:
     say I want to encrypt the letter "b".
     I choose g = 2, a = 3 and n = 5
